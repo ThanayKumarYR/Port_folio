@@ -45,20 +45,25 @@ export default function Contact() {
                   <p className="link1">
                     <a
                       href="https://www.instagram.com/_s.joshi__/"
+                      rel="noreferrer"
                       target="_blank"
                     >
                       <img src={instagram} alt="" />
                     </a>
-                    <a href="https://www.facebook.com/" target="_blank">
+                    <a href="https://www.facebook.com/" rel="noreferrer" target="_blank">
                       <img src={facebook} alt="" />
                     </a>
                     <a
                       href="mailto:sudhanvasjoshi2002@gmail.com"
+                      rel="noreferrer"
                       target="_blank"
                     >
                       <img src={mail} alt="" />
                     </a>
-                    <a href="https://www.linkedin.com/mwlite/in/sudhanva-s-joshi-35176622a">
+                    <a href="https://www.linkedin.com/mwlite/in/sudhanva-s-joshi-35176622a"
+                    rel="noreferrer"
+                    target="_blank"
+                    >
                       <img src={linkedin} alt="" />
                     </a>
                   </p>

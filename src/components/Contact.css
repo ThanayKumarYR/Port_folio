@@ -135,7 +135,7 @@ section .title::after{
     margin-right: 10px;
 }
 .contact .right form .email{
-    margin-left: 10px;
+    margin-left: 0px;
 }
 .contact .right form .field input,
 .contact .right form .textarea textarea{
