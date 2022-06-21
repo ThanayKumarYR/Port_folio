@@ -1,0 +1,80 @@
+#ABOUT{
+    padding: 1%;
+    width: 100%;
+    height: 102vh;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+#ABOUT h1{
+    margin-top: 4%;
+    text-align: center;
+    width: 100%;
+    font-size: 250%;
+   text-decoration-line: underline;
+}
+
+#ABOUT div{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 80vh;
+    justify-content: space-around;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+
+#ABOUT div img{
+    border: 10px solid rgb(14, 199, 14);
+    border-radius: 50%;
+}
+
+#ABOUT div p{
+    width: 60%;
+    text-align: justify;
+}
+
+
+@media (max-width : 900px) {
+    
+    #ABOUT{
+        height: 160vh;
+        overflow: hidden;
+    }
+
+    #ABOUT h1{
+        margin-top: 2%;
+    }
+
+    #ABOUT div{
+        width: 100%;
+        height: 100%; 
+        justify-content:space-around;
+    }
+    #ABOUT div p{
+        position: relative;
+        bottom: 7%;
+        width: 95%;
+    }
+    
+
+}
+@media (max-width : 500px) {
+
+    #ABOUT{
+        height: 250vh;
+        overflow: hidden;
+    }
+
+    #ABOUT div img{
+        border: 10px solid rgb(14, 199, 14);
+        border-radius: 50%;
+    }
+
+    #ABOUT div p{
+        position: relative;
+        bottom: 3%;
+        width: 95%;
+    }
+}
